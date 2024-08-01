@@ -7,9 +7,9 @@ const promise_mysql_1 = __importDefault(require("promise-mysql"));
 const pool = promise_mysql_1.default.createPool({
     host: 'sql5.freesqldatabase.com',
     port: 3306,
-    user: 'sql5722384',
-    password: 'LmPeGiVjv1',
-    database: 'sql5722384',
+    user: 'sql5723451',
+    password: 'kfwEQ4LEgG',
+    database: 'sql5723451',
 });
 pool.getConnection()
     .then(connection => {
