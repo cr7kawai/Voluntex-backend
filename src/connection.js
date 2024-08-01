@@ -5,11 +5,11 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const promise_mysql_1 = __importDefault(require("promise-mysql"));
 const pool = promise_mysql_1.default.createPool({
-    host: 'sql300.infinityfree.com',
+    host: 'sql5.freesqldatabase.com',
     port: 3306,
-    user: 'if0_37021914',
-    password: 'K7rCYm1k2P4',
-    database: 'if0_37021914_voluntex',
+    user: 'sql5722384',
+    password: 'LmPeGiVjv1',
+    database: 'sql5722384',
 });
 pool.getConnection()
     .then(connection => {
